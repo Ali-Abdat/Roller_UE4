@@ -30,7 +30,7 @@ struct FTurretStruct
 	float BulletSpeed;
 };
 
-UCLASS(hidecategories = ("Input","LOD","Collision","Rendering"))
+UCLASS(hidecategories = ("Input", "LOD", "HLOD","Collision","Rendering","Mobile","Cooking","Actor","Assest User Data","Navigation"))
 class ROLLER_API AGrid_Cell : public AActor
 {
 	GENERATED_BODY()
